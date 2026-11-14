@@ -32,7 +32,7 @@ Backlog y planificación del **Trabajo Práctico Integrador de Ingeniería de So
 | 9 | Estadísticas | P1 | S1–S17 | 13 | 7 | 0 | [#9](https://github.com/NicolasFerreras/archivo-digital/issues/9) |
 | 10 | Testing, seguridad y despliegue | P1 | S2–S17 | 21 | 11 | 0 | [#10](https://github.com/NicolasFerreras/archivo-digital/issues/10) |
 
-> La estimación por épica es preliminar. Las tareas se estiman en el planning de cada sprint.
+> La estimación por épica es preliminar. Las tareas se estiman en el planning de cada sprint. Cada tarea es un sub-issue de su épica; al abrir la épica se ve la lista completa.
 
 ## Campos del Project
 
@@ -48,21 +48,20 @@ Backlog y planificación del **Trabajo Práctico Integrador de Ingeniería de So
 
 > GitHub reserva el nombre `Type` para los tipos de issue, por eso el campo se llama **Work Type**.
 
-## Vistas del Project
+## Cómo usar el tablero
 
-El Project ya incluye tres vistas:
+1. **Board:** agrupar por `Status` para ver Todo / In Progress / In Review / Done.
+2. **Table:** ordenar por `Priority` y `Sprint`; usar `Epic` y `Area` como filtros.
+3. **Epics:** filtrar `Work Type = Epic` para ver solo las 10 épicas.
+4. **Planning:** al inicio de cada sprint, asignar `Assignee`, ajustar `Estimate` y mover las tareas de `Todo` a `In Progress`.
 
-- **Backlog:** tabla completa con todos los campos.
-- **Board:** tablero de trabajo con las columnas de `Status` (Todo / In Progress / In Review / Done). Si se abre sin agrupar, usar **Group by → Status**.
-- **Epics:** tabla filtrada por `Work Type = Epic`.
-
-Para un **Roadmap**, agregar un campo de fecha o una iteración; el campo `Sprint` actual es single select.
+> La API de GitHub no crea vistas automáticamente. El Project se crea con la vista Table; las vistas Board y Epics se agregan desde **New view** en la UI.
 
 ## Notas de planificación
 
 - Los **sprints asignados** son una propuesta inicial basada en el Gantt de 34 semanas / 17 sprints.
 - Los **assignees** quedan vacíos hasta que se incorporen los usuarios de GitHub del equipo.
-- Las **tareas** son draft items del Project; se pueden convertir en issues cuando se quieran vincular a Pull Requests.
+- Las **tareas** son sub-issues de cada épica y también están en el Project; al abrir una épica se despliega su lista de tareas.
 - El detalle completo está en [`docs/BACKLOG.md`](docs/BACKLOG.md).
 
 ## Documentación
