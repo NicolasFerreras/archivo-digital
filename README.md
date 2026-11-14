@@ -48,14 +48,15 @@ Backlog y planificación del **Trabajo Práctico Integrador de Ingeniería de So
 
 > GitHub reserva el nombre `Type` para los tipos de issue, por eso el campo se llama **Work Type**.
 
-## Cómo usar el tablero
+## Vistas del Project
 
-1. **Board:** agrupar por `Status` para ver Todo / In Progress / In Review / Done.
-2. **Table:** ordenar por `Priority` y `Sprint`; usar `Epic` y `Area` como filtros.
-3. **Epics:** filtrar `Work Type = Epic` para ver solo las 10 épicas.
-4. **Planning:** al inicio de cada sprint, asignar `Assignee`, ajustar `Estimate` y mover las tareas de `Todo` a `In Progress`.
+El Project ya incluye tres vistas:
 
-> La API de GitHub no crea vistas automáticamente. El Project se crea con la vista Table; las vistas Board y Epics se agregan desde **New view** en la UI.
+- **Backlog:** tabla completa con todos los campos.
+- **Board:** tablero agrupado por `Status` (Todo / In Progress / In Review / Done).
+- **Epics:** tabla filtrada por `Work Type = Epic`.
+
+Para un **Roadmap**, agregar un campo de fecha o una iteración; el campo `Sprint` actual es single select.
 
 ## Notas de planificación
 
