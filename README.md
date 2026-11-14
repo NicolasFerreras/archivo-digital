@@ -53,7 +53,7 @@ Backlog y planificación del **Trabajo Práctico Integrador de Ingeniería de So
 El Project ya incluye tres vistas:
 
 - **Backlog:** tabla completa con todos los campos.
-- **Board:** tablero agrupado por `Status` (Todo / In Progress / In Review / Done).
+- **Board:** tablero de trabajo con las columnas de `Status` (Todo / In Progress / In Review / Done). Si se abre sin agrupar, usar **Group by → Status**.
 - **Epics:** tabla filtrada por `Work Type = Epic`.
 
 Para un **Roadmap**, agregar un campo de fecha o una iteración; el campo `Sprint` actual es single select.
